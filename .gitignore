@@ -1,0 +1,26 @@
+# Local setup and generated outputs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+cache/
+.model-cache/
+.release-local/
+uploads/
+outputs/
+*.npy
+*.npz
+*.csv
+*.jsonl
+*.jsonl.gz
+.env
+.env.*
+!.env.example
+# Never import the original repository or nested snapshot
+redrob-ranker/
+redrob-ranker.zip

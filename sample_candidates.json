@@ -1,0 +1,2732 @@
+[
+  {
+    "candidate_id": "DEMO_001",
+    "profile": {
+      "anonymized_name": "Fictional profile 01",
+      "headline": "Backend Engineer",
+      "summary": "Built Java services with PostgreSQL and Docker deployment.",
+      "current_title": "Backend Engineer",
+      "years_of_experience": 8,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Java",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Backend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built Java services with PostgreSQL and Docker deployment.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_002",
+    "profile": {
+      "anonymized_name": "Fictional profile 02",
+      "headline": "Data Engineer",
+      "summary": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+      "current_title": "Data Engineer",
+      "years_of_experience": 5,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "SQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Data Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_003",
+    "profile": {
+      "anonymized_name": "Fictional profile 03",
+      "headline": "Brand Designer",
+      "summary": "Designed visual identities in Figma and Illustrator for customers.",
+      "current_title": "Brand Designer",
+      "years_of_experience": 6,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Figma",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Illustrator",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Brand Designer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Designed visual identities in Figma and Illustrator for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_004",
+    "profile": {
+      "anonymized_name": "Fictional profile 04",
+      "headline": "Frontend Engineer",
+      "summary": "Implemented customer-facing React and JavaScript interfaces.",
+      "current_title": "Frontend Engineer",
+      "years_of_experience": 2,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "JavaScript",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "React",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "CSS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented customer-facing React and JavaScript interfaces.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_005",
+    "profile": {
+      "anonymized_name": "Fictional profile 05",
+      "headline": "Senior AI Engineer",
+      "summary": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+      "current_title": "Senior AI Engineer",
+      "years_of_experience": 7,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "FAISS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "embeddings",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "retrieval",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "ranking",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "evaluation",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "a/b testing",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Senior AI Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_006",
+    "profile": {
+      "anonymized_name": "Fictional profile 06",
+      "headline": "Backend Engineer",
+      "summary": "Built Java services with PostgreSQL and Docker deployment.",
+      "current_title": "Backend Engineer",
+      "years_of_experience": 8,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Java",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Backend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built Java services with PostgreSQL and Docker deployment.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_007",
+    "profile": {
+      "anonymized_name": "Fictional profile 07",
+      "headline": "Data Engineer",
+      "summary": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+      "current_title": "Data Engineer",
+      "years_of_experience": 5,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "SQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Data Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_008",
+    "profile": {
+      "anonymized_name": "Fictional profile 08",
+      "headline": "Brand Designer",
+      "summary": "Designed visual identities in Figma and Illustrator for customers.",
+      "current_title": "Brand Designer",
+      "years_of_experience": 6,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Figma",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Illustrator",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Brand Designer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Designed visual identities in Figma and Illustrator for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_009",
+    "profile": {
+      "anonymized_name": "Fictional profile 09",
+      "headline": "Frontend Engineer",
+      "summary": "Implemented customer-facing React and JavaScript interfaces.",
+      "current_title": "Frontend Engineer",
+      "years_of_experience": 2,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "JavaScript",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "React",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "CSS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented customer-facing React and JavaScript interfaces.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_010",
+    "profile": {
+      "anonymized_name": "Fictional profile 10",
+      "headline": "Senior AI Engineer",
+      "summary": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+      "current_title": "Senior AI Engineer",
+      "years_of_experience": 7,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "FAISS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "embeddings",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "retrieval",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "ranking",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "evaluation",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "a/b testing",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Senior AI Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_011",
+    "profile": {
+      "anonymized_name": "Fictional profile 11",
+      "headline": "Backend Engineer",
+      "summary": "Built Java services with PostgreSQL and Docker deployment.",
+      "current_title": "Backend Engineer",
+      "years_of_experience": 8,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Java",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Backend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built Java services with PostgreSQL and Docker deployment.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_012",
+    "profile": {
+      "anonymized_name": "Fictional profile 12",
+      "headline": "Data Engineer",
+      "summary": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+      "current_title": "Data Engineer",
+      "years_of_experience": 5,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "SQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Data Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_013",
+    "profile": {
+      "anonymized_name": "Fictional profile 13",
+      "headline": "Brand Designer",
+      "summary": "Designed visual identities in Figma and Illustrator for customers.",
+      "current_title": "Brand Designer",
+      "years_of_experience": 6,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Figma",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Illustrator",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Brand Designer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Designed visual identities in Figma and Illustrator for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_014",
+    "profile": {
+      "anonymized_name": "Fictional profile 14",
+      "headline": "Frontend Engineer",
+      "summary": "Implemented customer-facing React and JavaScript interfaces.",
+      "current_title": "Frontend Engineer",
+      "years_of_experience": 2,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "JavaScript",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "React",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "CSS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented customer-facing React and JavaScript interfaces.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_015",
+    "profile": {
+      "anonymized_name": "Fictional profile 15",
+      "headline": "Senior AI Engineer",
+      "summary": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+      "current_title": "Senior AI Engineer",
+      "years_of_experience": 7,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "FAISS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "embeddings",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "retrieval",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "ranking",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "evaluation",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "a/b testing",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Senior AI Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_016",
+    "profile": {
+      "anonymized_name": "Fictional profile 16",
+      "headline": "Backend Engineer",
+      "summary": "Built Java services with PostgreSQL and Docker deployment.",
+      "current_title": "Backend Engineer",
+      "years_of_experience": 8,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Java",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Backend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built Java services with PostgreSQL and Docker deployment.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_017",
+    "profile": {
+      "anonymized_name": "Fictional profile 17",
+      "headline": "Data Engineer",
+      "summary": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+      "current_title": "Data Engineer",
+      "years_of_experience": 5,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "SQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Data Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_018",
+    "profile": {
+      "anonymized_name": "Fictional profile 18",
+      "headline": "Brand Designer",
+      "summary": "Designed visual identities in Figma and Illustrator for customers.",
+      "current_title": "Brand Designer",
+      "years_of_experience": 6,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Figma",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Illustrator",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Brand Designer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Designed visual identities in Figma and Illustrator for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_019",
+    "profile": {
+      "anonymized_name": "Fictional profile 19",
+      "headline": "Frontend Engineer",
+      "summary": "Implemented customer-facing React and JavaScript interfaces.",
+      "current_title": "Frontend Engineer",
+      "years_of_experience": 2,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "JavaScript",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "React",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "CSS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented customer-facing React and JavaScript interfaces.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_020",
+    "profile": {
+      "anonymized_name": "Fictional profile 20",
+      "headline": "Senior AI Engineer",
+      "summary": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+      "current_title": "Senior AI Engineer",
+      "years_of_experience": 7,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "FAISS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "embeddings",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "retrieval",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "ranking",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "evaluation",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "a/b testing",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Senior AI Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_021",
+    "profile": {
+      "anonymized_name": "Fictional profile 21",
+      "headline": "Backend Engineer",
+      "summary": "Built Java services with PostgreSQL and Docker deployment.",
+      "current_title": "Backend Engineer",
+      "years_of_experience": 8,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Java",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Backend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built Java services with PostgreSQL and Docker deployment.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_022",
+    "profile": {
+      "anonymized_name": "Fictional profile 22",
+      "headline": "Data Engineer",
+      "summary": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+      "current_title": "Data Engineer",
+      "years_of_experience": 5,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "SQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Data Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_023",
+    "profile": {
+      "anonymized_name": "Fictional profile 23",
+      "headline": "Brand Designer",
+      "summary": "Designed visual identities in Figma and Illustrator for customers.",
+      "current_title": "Brand Designer",
+      "years_of_experience": 6,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Figma",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Illustrator",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Brand Designer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Designed visual identities in Figma and Illustrator for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_024",
+    "profile": {
+      "anonymized_name": "Fictional profile 24",
+      "headline": "Frontend Engineer",
+      "summary": "Implemented customer-facing React and JavaScript interfaces.",
+      "current_title": "Frontend Engineer",
+      "years_of_experience": 2,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "JavaScript",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "React",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "CSS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented customer-facing React and JavaScript interfaces.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_025",
+    "profile": {
+      "anonymized_name": "Fictional profile 25",
+      "headline": "Senior AI Engineer",
+      "summary": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+      "current_title": "Senior AI Engineer",
+      "years_of_experience": 7,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "FAISS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "embeddings",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "retrieval",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "ranking",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "evaluation",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "a/b testing",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Senior AI Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_026",
+    "profile": {
+      "anonymized_name": "Fictional profile 26",
+      "headline": "Backend Engineer",
+      "summary": "Built Java services with PostgreSQL and Docker deployment.",
+      "current_title": "Backend Engineer",
+      "years_of_experience": 8,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Java",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Backend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built Java services with PostgreSQL and Docker deployment.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_027",
+    "profile": {
+      "anonymized_name": "Fictional profile 27",
+      "headline": "Data Engineer",
+      "summary": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+      "current_title": "Data Engineer",
+      "years_of_experience": 5,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "SQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Data Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_028",
+    "profile": {
+      "anonymized_name": "Fictional profile 28",
+      "headline": "Brand Designer",
+      "summary": "Designed visual identities in Figma and Illustrator for customers.",
+      "current_title": "Brand Designer",
+      "years_of_experience": 6,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Figma",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Illustrator",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Brand Designer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Designed visual identities in Figma and Illustrator for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_029",
+    "profile": {
+      "anonymized_name": "Fictional profile 29",
+      "headline": "Frontend Engineer",
+      "summary": "Implemented customer-facing React and JavaScript interfaces.",
+      "current_title": "Frontend Engineer",
+      "years_of_experience": 2,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "JavaScript",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "React",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "CSS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented customer-facing React and JavaScript interfaces.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_030",
+    "profile": {
+      "anonymized_name": "Fictional profile 30",
+      "headline": "Senior AI Engineer",
+      "summary": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+      "current_title": "Senior AI Engineer",
+      "years_of_experience": 7,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "FAISS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "embeddings",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "retrieval",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "ranking",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "evaluation",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "a/b testing",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Senior AI Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_031",
+    "profile": {
+      "anonymized_name": "Fictional profile 31",
+      "headline": "Backend Engineer",
+      "summary": "Built Java services with PostgreSQL and Docker deployment.",
+      "current_title": "Backend Engineer",
+      "years_of_experience": 8,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Java",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Backend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built Java services with PostgreSQL and Docker deployment.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_032",
+    "profile": {
+      "anonymized_name": "Fictional profile 32",
+      "headline": "Data Engineer",
+      "summary": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+      "current_title": "Data Engineer",
+      "years_of_experience": 5,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "SQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Data Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_033",
+    "profile": {
+      "anonymized_name": "Fictional profile 33",
+      "headline": "Brand Designer",
+      "summary": "Designed visual identities in Figma and Illustrator for customers.",
+      "current_title": "Brand Designer",
+      "years_of_experience": 6,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Figma",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Illustrator",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Brand Designer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Designed visual identities in Figma and Illustrator for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_034",
+    "profile": {
+      "anonymized_name": "Fictional profile 34",
+      "headline": "Frontend Engineer",
+      "summary": "Implemented customer-facing React and JavaScript interfaces.",
+      "current_title": "Frontend Engineer",
+      "years_of_experience": 2,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "JavaScript",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "React",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "CSS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented customer-facing React and JavaScript interfaces.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_035",
+    "profile": {
+      "anonymized_name": "Fictional profile 35",
+      "headline": "Senior AI Engineer",
+      "summary": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+      "current_title": "Senior AI Engineer",
+      "years_of_experience": 7,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "FAISS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "embeddings",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "retrieval",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "ranking",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "evaluation",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "a/b testing",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Senior AI Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_036",
+    "profile": {
+      "anonymized_name": "Fictional profile 36",
+      "headline": "Backend Engineer",
+      "summary": "Built Java services with PostgreSQL and Docker deployment.",
+      "current_title": "Backend Engineer",
+      "years_of_experience": 8,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Java",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Backend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built Java services with PostgreSQL and Docker deployment.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_037",
+    "profile": {
+      "anonymized_name": "Fictional profile 37",
+      "headline": "Data Engineer",
+      "summary": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+      "current_title": "Data Engineer",
+      "years_of_experience": 5,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "SQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Data Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_038",
+    "profile": {
+      "anonymized_name": "Fictional profile 38",
+      "headline": "Brand Designer",
+      "summary": "Designed visual identities in Figma and Illustrator for customers.",
+      "current_title": "Brand Designer",
+      "years_of_experience": 6,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Figma",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Illustrator",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Brand Designer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Designed visual identities in Figma and Illustrator for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_039",
+    "profile": {
+      "anonymized_name": "Fictional profile 39",
+      "headline": "Frontend Engineer",
+      "summary": "Implemented customer-facing React and JavaScript interfaces.",
+      "current_title": "Frontend Engineer",
+      "years_of_experience": 2,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "JavaScript",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "React",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "CSS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented customer-facing React and JavaScript interfaces.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_040",
+    "profile": {
+      "anonymized_name": "Fictional profile 40",
+      "headline": "Senior AI Engineer",
+      "summary": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+      "current_title": "Senior AI Engineer",
+      "years_of_experience": 7,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "FAISS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "embeddings",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "retrieval",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "ranking",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "evaluation",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "a/b testing",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Senior AI Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_041",
+    "profile": {
+      "anonymized_name": "Fictional profile 41",
+      "headline": "Backend Engineer",
+      "summary": "Built Java services with PostgreSQL and Docker deployment.",
+      "current_title": "Backend Engineer",
+      "years_of_experience": 8,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Java",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Backend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built Java services with PostgreSQL and Docker deployment.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_042",
+    "profile": {
+      "anonymized_name": "Fictional profile 42",
+      "headline": "Data Engineer",
+      "summary": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+      "current_title": "Data Engineer",
+      "years_of_experience": 5,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "SQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Data Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_043",
+    "profile": {
+      "anonymized_name": "Fictional profile 43",
+      "headline": "Brand Designer",
+      "summary": "Designed visual identities in Figma and Illustrator for customers.",
+      "current_title": "Brand Designer",
+      "years_of_experience": 6,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Figma",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Illustrator",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Brand Designer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Designed visual identities in Figma and Illustrator for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_044",
+    "profile": {
+      "anonymized_name": "Fictional profile 44",
+      "headline": "Frontend Engineer",
+      "summary": "Implemented customer-facing React and JavaScript interfaces.",
+      "current_title": "Frontend Engineer",
+      "years_of_experience": 2,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "JavaScript",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "React",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "CSS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented customer-facing React and JavaScript interfaces.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_045",
+    "profile": {
+      "anonymized_name": "Fictional profile 45",
+      "headline": "Senior AI Engineer",
+      "summary": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+      "current_title": "Senior AI Engineer",
+      "years_of_experience": 7,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "FAISS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "embeddings",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "retrieval",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "ranking",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "evaluation",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "a/b testing",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Senior AI Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_046",
+    "profile": {
+      "anonymized_name": "Fictional profile 46",
+      "headline": "Backend Engineer",
+      "summary": "Built Java services with PostgreSQL and Docker deployment.",
+      "current_title": "Backend Engineer",
+      "years_of_experience": 8,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Java",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Backend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built Java services with PostgreSQL and Docker deployment.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_047",
+    "profile": {
+      "anonymized_name": "Fictional profile 47",
+      "headline": "Data Engineer",
+      "summary": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+      "current_title": "Data Engineer",
+      "years_of_experience": 5,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "SQL",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Docker",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Data Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Built SQL pipelines using PostgreSQL and Docker for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_048",
+    "profile": {
+      "anonymized_name": "Fictional profile 48",
+      "headline": "Brand Designer",
+      "summary": "Designed visual identities in Figma and Illustrator for customers.",
+      "current_title": "Brand Designer",
+      "years_of_experience": 6,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Figma",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "Illustrator",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Brand Designer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Designed visual identities in Figma and Illustrator for customers.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_049",
+    "profile": {
+      "anonymized_name": "Fictional profile 49",
+      "headline": "Frontend Engineer",
+      "summary": "Implemented customer-facing React and JavaScript interfaces.",
+      "current_title": "Frontend Engineer",
+      "years_of_experience": 2,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "JavaScript",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "React",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "CSS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented customer-facing React and JavaScript interfaces.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  },
+  {
+    "candidate_id": "DEMO_050",
+    "profile": {
+      "anonymized_name": "Fictional profile 50",
+      "headline": "Senior AI Engineer",
+      "summary": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+      "current_title": "Senior AI Engineer",
+      "years_of_experience": 7,
+      "location": "Fictional City",
+      "country": "Fictional Country",
+      "current_company": "Example Studio",
+      "current_industry": "Software",
+      "current_company_size": "51-200"
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "FAISS",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "embeddings",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "retrieval",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "ranking",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "evaluation",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      },
+      {
+        "name": "a/b testing",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 24
+      }
+    ],
+    "career_history": [
+      {
+        "title": "Senior AI Engineer",
+        "company": "Example Studio",
+        "company_size": "51-200",
+        "description": "Implemented production Python embedding retrieval with FAISS, ranking evaluation and A/B testing.",
+        "start_date": "2024-01-01",
+        "end_date": null,
+        "duration_months": 24
+      }
+    ],
+    "education": [],
+    "certifications": [],
+    "redrob_signals": {
+      "last_active_date": "2026-11-13"
+    }
+  }
+]

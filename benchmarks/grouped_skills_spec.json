@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "status": "experimental; fixed before inspecting this experiment's rankings",
+  "as_of": "2026-11-13",
+  "followup_seed": 20261114,
+  "fields": {
+    "declared_skills": "skills[].name only; proficiency is used only by the unchanged assessment penalty",
+    "narrative": "profile.summary and career_history[].description, split into sentences/semicolon/newline units",
+    "excluded": "titles, names, employers, education, location, recruiter/engagement signals; other production scorers still use their existing inputs"
+  },
+  "matching": {
+    "normalization": "casefold, Unicode hyphens/dashes to spaces, whitespace collapsed; complete token/phrase boundaries",
+    "negative_or_learning_units": [
+      "no professional",
+      "no production",
+      "have not",
+      "haven't",
+      "haven’t",
+      "side project",
+      "coursework",
+      "interested in",
+      "looking to",
+      "still learning"
+    ],
+    "actions": [
+      "built",
+      "implemented",
+      "developed",
+      "designed",
+      "owned",
+      "maintained",
+      "shipped",
+      "deployed",
+      "wrote",
+      "coded",
+      "led",
+      "operated"
+    ],
+    "production_context": [
+      "production",
+      "deployed",
+      "shipped",
+      "live",
+      "users",
+      "queries",
+      "product"
+    ],
+    "systems": [
+      "retrieval",
+      "search",
+      "ranking",
+      "ranker",
+      "recommendation",
+      "recommendations"
+    ],
+    "embeddings": [
+      "embedding",
+      "embeddings",
+      "sentence transformers",
+      "sentence transformer",
+      "bge",
+      "e5",
+      "openai embeddings",
+      "dense retrieval",
+      "semantic search"
+    ],
+    "hybrid": [
+      "hybrid search",
+      "hybrid retrieval"
+    ],
+    "dense": [
+      "dense retrieval",
+      "dense vectors",
+      "dense vector",
+      "sparse and dense"
+    ],
+    "evaluation_context": [
+      "evaluation",
+      "eval",
+      "metrics",
+      "correlation",
+      "calibration",
+      "a/b testing",
+      "a/b tests",
+      "ab testing",
+      "a/b test",
+      "ab test",
+      "ab tests"
+    ],
+    "contribution_actions": [
+      "contributed",
+      "maintained",
+      "maintainer",
+      "authored",
+      "released"
+    ],
+    "inference_methods": [
+      "quantization",
+      "quantizing",
+      "batching",
+      "optimization",
+      "optimisation"
+    ]
+  },
+  "essential_groups": [
+    {
+      "id": "production_embedding_retrieval",
+      "rule": "action + embedding + system + production context in one non-negated narrative unit"
+    },
+    {
+      "id": "vector_or_hybrid",
+      "rule": "one named tool in declared skills/narrative OR documented action + hybrid-search phrase (or BM25 + dense-vector phrase) in one narrative unit",
+      "aliases": [
+        "faiss",
+        "pinecone",
+        "weaviate",
+        "qdrant",
+        "milvus",
+        "elasticsearch",
+        "opensearch",
+        "pgvector",
+        "vector database",
+        "vector databases"
+      ]
+    },
+    {
+      "id": "python_engineering",
+      "rule": "action + Python in one non-negated narrative unit; a bare skill tag does not establish personal implementation"
+    },
+    {
+      "id": "ranking_evaluation",
+      "rule": "action + ranking/search/system context + evaluation context + one metric/method alternative in one narrative unit",
+      "aliases": [
+        "ndcg",
+        "mrr",
+        "map",
+        "mean average precision",
+        "a/b testing",
+        "a/b tests",
+        "ab testing",
+        "offline to online",
+        "offline online",
+        "a/b test",
+        "ab test",
+        "ab tests"
+      ]
+    },
+    {
+      "id": "shipped_ranking_search_or_recommendation",
+      "rule": "action + system + production context in one non-negated narrative unit"
+    }
+  ],
+  "nice_groups": [
+    {
+      "id": "llm_finetuning",
+      "rule": "declared skill or non-negated narrative alias",
+      "aliases": [
+        "lora",
+        "qlora",
+        "peft",
+        "llm fine tuning",
+        "fine tuning llms",
+        "fine tuning llm"
+      ]
+    },
+    {
+      "id": "learning_to_rank",
+      "rule": "declared skill or non-negated narrative alias",
+      "aliases": [
+        "learning to rank",
+        "neural ltr",
+        "xgboost",
+        "lightgbm"
+      ]
+    },
+    {
+      "id": "hr_recruiting_marketplace",
+      "rule": "non-negated narrative alias",
+      "aliases": [
+        "hr tech",
+        "hrtech",
+        "recruiting",
+        "recruitment",
+        "recruiter",
+        "marketplace"
+      ]
+    },
+    {
+      "id": "distributed_or_inference_optimization",
+      "rule": "declared skill/narrative alias OR action + inference + optimization method in one narrative unit",
+      "aliases": [
+        "distributed systems",
+        "distributed computing",
+        "large scale inference",
+        "inference optimization",
+        "inference optimisation"
+      ]
+    },
+    {
+      "id": "ai_ml_open_source",
+      "rule": "contribution action + open source + AI/ML context in one narrative unit",
+      "aliases": [
+        "ai",
+        "ml",
+        "machine learning",
+        "retrieval",
+        "ranking",
+        "transformers",
+        "pytorch",
+        "tensorflow"
+      ]
+    }
+  ],
+  "combination": {
+    "per_group_max": 1,
+    "essential_fraction_weight": 0.75,
+    "nice_fraction_weight": 0.25,
+    "assessment_penalty": "unchanged exact skill-name/proficiency rule: multiply by 0.85 for each assessment below 40 matching an expert/advanced skill name",
+    "other_weights_and_precision": "unchanged production compute_structured_score and compute_final_score"
+  }
+}

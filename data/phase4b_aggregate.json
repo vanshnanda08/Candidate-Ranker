@@ -1,0 +1,54 @@
+{
+  "role": "Senior AI Engineer",
+  "pool_size": 71,
+  "as_of": "2026-11-13",
+  "label_provenance": "AI-assisted and user-confirmed",
+  "scope": "Single-role pooled pilot; exploratory, not population-wide relevance. Grouped-skill hybrid remains experimental.",
+  "gain": "2^grade - 1",
+  "source_report": "Phase 4B verified aggregate evaluation",
+  "source_sha256": "94335eb67c107675f627c98d61df637f97138139031c7818f6cb9a226f13b179",
+  "methods": {
+    "keyword_only": {
+      "10": {
+        "pooled_ndcg": 1.0,
+        "judged_count": 10,
+        "cutoff": 10,
+        "judged_coverage": 1.0
+      },
+      "20": {
+        "pooled_ndcg": 0.9516759749177383,
+        "judged_count": 20,
+        "cutoff": 20,
+        "judged_coverage": 1.0
+      }
+    },
+    "current_hybrid": {
+      "10": {
+        "pooled_ndcg": 1.0,
+        "judged_count": 10,
+        "cutoff": 10,
+        "judged_coverage": 1.0
+      },
+      "20": {
+        "pooled_ndcg": 0.9744102412230781,
+        "judged_count": 20,
+        "cutoff": 20,
+        "judged_coverage": 1.0
+      }
+    },
+    "grouped_hybrid": {
+      "10": {
+        "pooled_ndcg": 1.0,
+        "judged_count": 10,
+        "cutoff": 10,
+        "judged_coverage": 1.0
+      },
+      "20": {
+        "pooled_ndcg": 0.9538524942959229,
+        "judged_count": 20,
+        "cutoff": 20,
+        "judged_coverage": 1.0
+      }
+    }
+  }
+}

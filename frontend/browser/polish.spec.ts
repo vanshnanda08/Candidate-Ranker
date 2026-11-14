@@ -1,0 +1,71 @@
+import { test, expect } from "@playwright/test";
+
+test("50-profile fictional demo layout, focus, validation and review screenshots", async ({ page }, info) => {
+  const failures: string[] = [];
+  page.on("pageerror", (error) => failures.push(error.message));
+  await page.goto("/");
+  await expect(page.getByText("Accepted 50 profiles", { exact: false })).toBeVisible();
+  await page.keyboard.press("Tab");
+  await expect(page.getByRole("link", { name: "Skip to content" })).toBeFocused();
+  await expect(page.getByRole("link", { name: "Skip to content" })).toHaveCSS("outline-style", "solid");
+  await page.keyboard.press("Enter");
+  await expect(page.locator("#main-content")).toBeFocused();
+  const steps = await page.locator(".setup-step").evaluateAll((elements) => elements.map((element) => {
+    const { x, y } = element.getBoundingClientRect(); return { x, y };
+  }));
+  // Desktop setup is a compact vertical sidebar; mobile stacks the same steps.
+  expect(steps[1].y).toBeGreaterThan(steps[0].y); expect(steps[2].y).toBeGreaterThan(steps[1].y);
+  await page.evaluate(() => document.fonts.ready);
+  await page.screenshot({ path: info.outputPath("setup.png"), fullPage: true });
+  await page.getByLabel("Job to rank for").selectOption("custom");
+  await page.getByRole("button", { name: "Run Ranking", exact: true }).click();
+  await expect(page.getByLabel("Job title (required)", { exact: true })).toHaveAttribute("aria-invalid", "true");
+  await expect(page.locator("#job-title-error")).toBeVisible();
+  await expect(page.locator("#job-description-error")).toBeVisible();
+  await page.getByLabel("Job to rank for").selectOption("default");
+  // Expanding the job inside the form must not submit it.
+  let calls = 0;
+  page.on("request", (request) => { if (request.method() === "POST" && request.url().endsWith("/api/rank")) calls++; });
+  await page.getByRole("button", { name: "View built-in job description" }).click();
+  expect(calls).toBe(0);
+  await page.getByRole("button", { name: "View built-in job description" }).click();
+  const pending = page.waitForResponse((response) => response.url().endsWith("/api/rank") && response.request().method() === "POST");
+  await page.getByRole("button", { name: "Run Ranking", exact: true }).click();
+  const response = await pending; expect(response.status()).toBe(200);
+  const ranking = await response.json(); expect(ranking.total_candidates).toBe(50); expect(ranking.results).toHaveLength(20);
+  await expect(page.getByText("Results for: Senior AI Engineer", { exact: true })).toBeVisible();
+  await page.locator(".review-heading").evaluate((element) => element.scrollIntoView({ block: "start", behavior: "instant" }));
+  await page.screenshot({ path: info.outputPath("results.png") });
+  const firstCandidate = page.locator("[data-candidate-id]").first();
+  await firstCandidate.getByRole("button", { name: "Details", exact: false }).click();
+  await expect(firstCandidate.locator(".detail-reveal")).toHaveAttribute("data-open", "true");
+  await firstCandidate.screenshot({ path: info.outputPath("candidate.png") });
+  await firstCandidate.getByRole("button", { name: "Details", exact: false }).click();
+  const ids = ranking.results.slice(0, 2).map((candidate: { candidate_id: string }) => candidate.candidate_id);
+  for (const id of ids) await page.getByLabel(`Compare ${id}`, { exact: true }).check();
+  const comparison = page.getByLabel("Candidate comparison", { exact: true });
+  await expect(comparison.locator("article")).toHaveCount(2);
+  // Long evidence lists are keyboard-scrollable without trapping focus.
+  const evidence = comparison.locator(".comparison-evidence").first();
+  await evidence.focus();
+  await expect(evidence).toBeFocused();
+  await page.keyboard.press("End");
+  await expect.poll(() => evidence.evaluate((element) => element.scrollTop)).toBeGreaterThan(0);
+  await page.keyboard.press("Home");
+  await expect.poll(() => evidence.evaluate((element) => element.scrollTop)).toBe(0);
+  await page.getByRole("link", { name: "View comparison (2/3)", exact: false }).focus();
+  await page.keyboard.press("Enter");
+  await comparison.screenshot({ path: info.outputPath("comparison.png") });
+  for (const id of ids) await comparison.getByRole("button", { name: `Add ${id} to shortlist from comparison`, exact: true }).click();
+  await page.getByRole("button", { name: "Shortlist", exact: true }).click();
+  const note = "Fictional demo: ask about evaluation ownership and implementation.";
+  await page.getByRole("textbox", { name: `Notes for ${ids[0]}`, exact: true }).fill(note);
+  await page.reload();
+  await expect(page.getByRole("textbox", { name: `Notes for ${ids[0]}`, exact: true })).toHaveValue(note);
+  await page.locator(".shortlist-panel").screenshot({ path: info.outputPath("shortlist.png") });
+  await page.getByRole("button", { name: "Benchmark", exact: true }).click();
+  await expect(page.getByText("0.974410", { exact: true }).filter({ visible: true })).toBeVisible();
+  await page.locator(".benchmark-panel").screenshot({ path: info.outputPath("benchmark.png") });
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  expect(failures).toEqual([]);
+});
