@@ -1,6 +1,6 @@
 # Final local release verification
 
-Verified 2026-11-14. This clean copy includes the Phase 6B design and Candidate Ranker browser title. Technical checks pass; public redistribution remains gated by the permissions in PUBLICATION_STATUS.md.
+Verified 2026-11-14. This clean copy includes the Phase 6B design and Candidate Ranker browser title. Technical checks pass. The owner subsequently confirmed permission and authorized publication; see PUBLICATION_STATUS.md. This documentation update changes no tested application code.
 
 ## Source selection and fixes
 
@@ -70,4 +70,4 @@ The executed Chrome command additionally set TALENTLENS_CHROME_PATH to installed
 
 No new npm findings were reported; the prepared snapshot's compatible Vite/PostCSS and transitive tooling fixes remain. The build emits approximately 585.21 kB minified JavaScript / 173.90 kB gzip, retaining the known chunk-size advisory. No forced major upgrade or blanket install-script permission was used. Font licenses retain their original bytes.
 
-The exact target https://github.com/vanshnanda08/Candidate-Ranker.git was inspected and had no refs. The release has fresh local history and that remote configured; the original upstream remote is untouched. Upstream main remains at 229dd6a8c8c7594b906a0cbe2f7c38e15186eb25 with no repository license/notice file found. Written redistribution permission for inherited code and the embedded challenge JD is still unresolved. Per the requested permission gate, publishing is withheld; authentication for a write was not tested. The local commit is complete for publication once permission is resolved.
+The exact target https://github.com/vanshnanda08/Candidate-Ranker.git was inspected and had no refs. The release has fresh local history and that remote configured; the original upstream remote is untouched. Upstream main remains at 229dd6a8c8c7594b906a0cbe2f7c38e15186eb25 with no repository license/notice file found. The initial inherited-code/JD publication gate was subsequently addressed by the owner confirming that they have permission and instructing the push. The underlying agreement is not bundled or independently reviewed. Upstream attribution, font notices and the tested code remain unchanged; no blanket open-source license is inferred.

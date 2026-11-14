@@ -1,13 +1,9 @@
-# DRAFT — publication blocked
+# Publication authorized by the project owner
 
-This is a local review snapshot, not cleared for public redistribution. Technical verification does not grant copyright permission.
+The project owner confirmed in this session: “i have the permission for this push it”. This confirmation addresses the inherited-code and challenge/JD publication permission gate identified during release verification and authorizes publishing this verified snapshot to https://github.com/vanshnanda08/Candidate-Ranker.git.
 
-Before GitHub publication:
+This records the owner's confirmation; the underlying permission agreement was not supplied or independently reviewed. It does not invent a blanket open-source license, grant downstream relicensing rights, or change third-party license terms. No MIT/Apache application license has been applied to the mixed codebase.
 
-1. Obtain an explicit license or written permission from Udhey Goyal/the upstream rights holder covering public redistribution and modification of the inherited source. See the exact affected-file inventory in docs/PUBLICATION_PERMISSIONS.md.
-2. Obtain permission from the challenge/job-text rights holder, or evidence that the applicable challenge terms permit publication of the embedded Senior AI Engineer JD and associated challenge-specific text/rules. Preserve the benchmarked JD until permission is settled; silently replacing it would change embedding inputs and benchmark conditions.
-3. Decide the license for user-owned new code after clarifying which code can be licensed. A possible decision is MIT for solely owned contributions, with upstream material excluded unless permission permits it. No blanket MIT/Apache license has been applied to this mixed snapshot.
+Upstream attribution to Udhey Goyal and the original Instrument font OFL notices remain intact. See docs/PUBLICATION_PERMISSIONS.md for the provenance inventory and scope of this confirmation.
 
-Font permissions are documented and required OFL notices are retained. Original profile data and screenshots are excluded. The new fictional sample/screenshots and hand-authored test fixtures are the only candidate evidence intended for publication. Raw labels, manifests, rankings, private datasets and caches stay local.
-
-All checks, dependency fixes and data replacement apply only to this separate release copy. The original working tree and history are preserved. The user authorized a push to https://github.com/vanshnanda08/Candidate-Ranker.git once release and permission checks pass. Because the inherited-code/JD permission gate remains unresolved, this verified local commit is prepared without publishing it.
+The release contains fictional demo profiles and screenshots, aggregate benchmark results, source, tests and documentation. Original candidate data, individual labels, private manifests/rankings, embedding caches and generated submissions remain excluded. The original workspace, Git history and upstream remote are preserved.

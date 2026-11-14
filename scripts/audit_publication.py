@@ -57,7 +57,7 @@ def audit():
     return {"scope": "exact tracked plus proposed nonignored snapshot files", "files_checked": len(paths),
             "fictional_sample_count": len(sample), "findings": findings,
             "files": [{"path": name, "sha256": hashlib.sha256((ROOT / name).read_bytes()).hexdigest()} for name in paths],
-            "permission_status": "draft; see PUBLICATION_STATUS.md", "sensitive_values_printed": False}
+            "permission_status": "see PUBLICATION_STATUS.md for permission scope", "sensitive_values_printed": False}
 
 
 def main():

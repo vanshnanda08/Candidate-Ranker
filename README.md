@@ -1,6 +1,6 @@
 # TalentLens AI
 
-**Local draft — publication blocked pending upstream code/JD permissions and a license decision for new code.** See [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) and [permission evidence](docs/PUBLICATION_PERMISSIONS.md). No original Git history is included.
+The project owner confirmed permission to publish this verified release. See [publication status](PUBLICATION_STATUS.md) and [provenance and permission scope](docs/PUBLICATION_PERMISSIONS.md). Upstream attribution and third-party notices are retained; no original Git history is included.
 
 A local candidate ranking and review workbench built with React, FastAPI and a pinned Sentence Transformers model. The **current hybrid ranker remains the default**. Grouped-skill scoring is an offline experiment, not a production default.
 
@@ -144,6 +144,6 @@ For the opt-in real-API DOM test, keep the API running and set `TALENTLENS_DEMO_
 
 ## Attribution and publication
 
-Based on the original Redrob ranker by **Udhey Goyal**, [upstream repository](https://github.com/Udhey-Goyal/TalentLens-AI). Original author attribution is retained; modifications must not be presented as exclusive authorship. The upstream README describes educational/portfolio sharing but provides no clear derivative redistribution license. The embedded challenge job text also needs permission confirmation.
+Based on the original Redrob ranker by **Udhey Goyal**, [upstream repository](https://github.com/Udhey-Goyal/TalentLens-AI). Original author attribution is retained; modifications must not be presented as exclusive authorship. The upstream README describes educational/portfolio sharing but provides no clear derivative redistribution license. The project owner has confirmed publication permission for this release, including the inherited-code/JD permission gate. The underlying agreement is not bundled, and no blanket open-source license is inferred.
 
-Instrument Sans and Instrument Serif retain their original OFL notices in `frontend/public/fonts/`. The new fictional sample and Phase 6B screenshots replace every original profile sample/screenshot in this snapshot. Local environments, caches, generated CSVs and uploads are ignored. Fresh local history includes no original commits. The local release remote is the requested `https://github.com/vanshnanda08/Candidate-Ranker.git`; publication remains withheld pending the permission gate. See [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) before publishing any draft source.
+Instrument Sans and Instrument Serif retain their original OFL notices in `frontend/public/fonts/`. The new fictional sample and Phase 6B screenshots replace every original profile sample/screenshot in this snapshot. Local environments, caches, generated CSVs and uploads are ignored. Fresh local history includes no original commits. The local release remote is the requested `https://github.com/vanshnanda08/Candidate-Ranker.git`; the owner has authorized publishing this verified snapshot. See [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) for the scope of that authorization.
