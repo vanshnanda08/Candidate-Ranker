@@ -1,9 +1,6 @@
-# Attribution and third-party notices
+# Third-party notices
 
-The original Redrob candidate ranker was authored by **Udhey Goyal**:
-https://github.com/Udhey-Goyal/TalentLens-AI (formerly redrob-ai-ranker).
-
-The original README states: “This project was developed for the Redrob AI Hiring Challenge and is shared for educational and portfolio purposes.” This statement is preserved as attribution/evidence, not treated as a complete license grant. The project owner has confirmed permission to publish this release; see PUBLICATION_STATUS.md and docs/PUBLICATION_PERMISSIONS.md. This confirmation is not a blanket downstream license grant.
+This release includes inherited candidate-ranking code. The project owner has confirmed permission to publish this release; see PUBLICATION_STATUS.md and docs/PUBLICATION_PERMISSIONS.md. Optional personal-name credits were removed at the owner's request. This does not change ownership or applicable license conditions and is not a blanket downstream license grant.
 
 Instrument Sans — Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans).
 Instrument Serif — Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif).

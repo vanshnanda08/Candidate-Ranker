@@ -4,7 +4,7 @@ Verified 2026-11-14. This clean copy includes the Phase 6B design and Candidate 
 
 ## Source selection and fixes
 
-The requested `fe7f38c` object was not available in either inspected repository. The actual prepared snapshot was `83c0d86`. The original working tree had no newer source changes compared with that snapshot's recorded baseline. This copy starts from its sanitized tracked files, preserving its dependency fixes, fictional sample, attribution, font licenses and test-fixture corrections. It does not import either repository's history.
+The requested `fe7f38c` object was not available in either inspected repository. The actual prepared snapshot was `83c0d86`. The original working tree had no newer source changes compared with that snapshot's recorded baseline. This copy starts from its sanitized tracked files, preserving its dependency fixes, fictional sample, required notices, font licenses and test-fixture corrections. It does not import either repository's history.
 
 Two reproduced issues were addressed here:
 
@@ -70,4 +70,4 @@ The executed Chrome command additionally set TALENTLENS_CHROME_PATH to installed
 
 No new npm findings were reported; the prepared snapshot's compatible Vite/PostCSS and transitive tooling fixes remain. The build emits approximately 585.21 kB minified JavaScript / 173.90 kB gzip, retaining the known chunk-size advisory. No forced major upgrade or blanket install-script permission was used. Font licenses retain their original bytes.
 
-The exact target https://github.com/vanshnanda08/Candidate-Ranker.git was inspected and had no refs. The release has fresh local history and that remote configured; the original upstream remote is untouched. Upstream main remains at 229dd6a8c8c7594b906a0cbe2f7c38e15186eb25 with no repository license/notice file found. The initial inherited-code/JD publication gate was subsequently addressed by the owner confirming that they have permission and instructing the push. The underlying agreement is not bundled or independently reviewed. Upstream attribution, font notices and the tested code remain unchanged; no blanket open-source license is inferred.
+The exact target https://github.com/vanshnanda08/Candidate-Ranker.git was inspected and had no refs. The release has fresh local history and that remote configured; the original upstream remote is untouched. Upstream main remains at 229dd6a8c8c7594b906a0cbe2f7c38e15186eb25 with no repository license/notice file found. The initial inherited-code/JD publication gate was subsequently addressed by the owner confirming that they have permission and instructing the push. The underlying agreement is not bundled or independently reviewed. Font notices and the tested code remain unchanged; optional personal-name credits were subsequently removed at the project owner’s request; no blanket open-source license is inferred.

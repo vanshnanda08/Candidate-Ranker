@@ -6,9 +6,9 @@ The following retains the provenance findings from 2026-11-14; absence of a publ
 
 ## Upstream application code
 
-Source: [Udhey-Goyal/TalentLens-AI](https://github.com/Udhey-Goyal/TalentLens-AI), formerly redrob-ai-ranker. The checked upstream main revision is `229dd6a8c8c7594b906a0cbe2f7c38e15186eb25`. The GitHub repository metadata has `license: null`, and its recursively listed tree has no LICENSE/COPYING/NOTICE grant. The local original tracked README credits Udhey Goyal and mentions the Redrob AI Hiring Challenge, with educational/portfolio sharing language. That statement does not specify rights to modify, sublicense or redistribute a derivative release.
+The checked upstream revision is `229dd6a8c8c7594b906a0cbe2f7c38e15186eb25`. Its repository metadata reported `license: null`, and its recursively listed tree had no LICENSE/COPYING/NOTICE grant. The original README mentions the Redrob AI Hiring Challenge and educational/portfolio sharing. These are historical provenance observations, not a blanket license grant.
 
-Evidence: inspected local tracked README and notices, the nested source copy, archive member list, and upstream repository metadata/tree at the pinned revision. No separate challenge terms, redistribution agreement or license file was found in those local materials. Original Git commits were not copied. Attribution remains in README.md and NOTICE.md.
+The original tracked README, notices, nested source copy, archive member list and upstream metadata/tree were inspected. No separate challenge terms or redistribution agreement was present in those materials. The project owner subsequently confirmed publication permission and requested removal of personal-name references and credit links. Those optional references have been removed from the current files; ownership claims and required third-party notices are unchanged. Original Git commits were not imported into the release.
 
 **Initial gate:** permission covering inherited source and modified/derived versions, public GitHub redistribution, and required notices. The owner has confirmed having the permission needed for this push. No broader right to sublicense or relicense is inferred.
 
